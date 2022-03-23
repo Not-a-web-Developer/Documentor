@@ -164,6 +164,20 @@ hr {
   will-change: margin-left;
 }
 
+@media (max-width: 600px) {
+  .content {
+    margin-left: 0;
+  }
+  .content .tools {
+    margin-left: 270px;
+  }
+  .full-width .content .tools {
+    margin-left: 0;
+    transition: transform ease-in-out .25s;
+    will-change: margin-left;
+  }
+}
+
 .content h1,.content h2,.content h3,.content h4,.content h5,.content h6 {
   font-family: Lato, sans-serif;
   font-weight: 700;
